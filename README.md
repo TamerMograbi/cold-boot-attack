@@ -46,3 +46,13 @@ and many other variations as not all bits in ram will hold their values all the 
  
 # The attack on newer laptops
 This attack is still possible on newer laptops but companies do try to defend against it. for example most laptops now have a version of BIOS that will erase ram either on every boot or only when it detects that the OS was forced to shut down. (using the MOR -memory overwrite request- bit) some companies solder ram as well to stop an attacker from putting ram on another machine. microsoft for example only boots OSs signed by it on laptops manufactured by them (surface laptop for instance). although you can disable this option in bios and allow booting anything, when you do, the bitlocker will ask you to enter a key that only one with access to the victim's microsoft account can get.
+
+# Possible defenses
+* avoid storing keys in memory
+* software should overwrite keys after use
+* OS and BIOS should erase memory
+* limit booting optons (don't allow boot from usb...)
+* hibernate laptop. Don't leave in sleep mode
+* requre password on BIOS
+* solder ram
+
