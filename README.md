@@ -1,7 +1,7 @@
 # cold-boot-attack
 
-![alt text](https://raw.githubusercontent.com/TamerMograbi/cold-boot-attack/master/cold_ram.png)
-![alt text](https://raw.githubusercontent.com/TamerMograbi/cold-boot-attack/master/cold_ram_can.png)
+![alt text](https://raw.githubusercontent.com/TamerMograbi/cold-boot-attack/master/cold_ram.jpg)
+![alt text](https://raw.githubusercontent.com/TamerMograbi/cold-boot-attack/master/cold_ram_can.jpg)
 
 # background
 the first paper about cold boot was released in 2009 and details why the ram is vulnerable
