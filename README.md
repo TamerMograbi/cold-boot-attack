@@ -56,3 +56,8 @@ This attack is still possible on newer laptops but companies do try to defend ag
 * requre password on BIOS
 * solder ram
 
+# vulnerable mac
+![alt text](https://raw.githubusercontent.com/TamerMograbi/cold-boot-attack/master/mac.jpg)
+here you can see an example of the output i got after i ran the string command + grep batman on the memory dump.
+I also searched for the string "Mograbi" as i had this string as a comment in the code that was running on the victim laptop just before i shut it down. it should show up as well because code is stored on the stack which is also on RAM!
+(it might not show up as there is only one copy of it and it might be overwritten by any program that is using the RAM)
